@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header nav .nav_wrapper {
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute; */
+}
+
+header nav .logo a {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61.28px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav .logo span{
+    color: #fd6e0a;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header .nav_wrapper .item ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+header .nav_wrapper .item ul li a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    color: #474747;
+    text-decoration: none;
+}
+
+header .nav_wrapper .item ul .hire_me a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    color: #474747;
+    text-decoration: none;
+    padding: 15px 35px;
+    background-color: #fd6e0a;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: .04s;
+}
+
+header .nav_wrapper .item ul li a:hover {
+    color: #fd6e0a;
+}
+
+header .nav_wrapper .item .hire_me a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#banner {
+    width: 100%;
+    height: 757px;
+    background-color: #fff4ec;
+    position: relative;
+}
+
+#banner::after {
+    content: "Developer";
+    width: 837px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 136.18px;
+    letter-spacing: 35px;
+    top: 250px;
+    left: -340px;
+    position: absolute;
+    transform: rotate(-90deg);
+    color: #181818;
+    opacity: 15%;
+}
+
+#banner .banner_wrapper .text h4 {
+    margin-top: 185px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61.28px;
+    color: #474747;
+}
+
+#banner .banner_wrapper .text h1 {
+    margin-top: 5px;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 115.75px;
+    color: #181818;
+}
+
+#banner .banner_wrapper .text p {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+
+#banner .banner_wrapper .text .download {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.24px;
+    color: #ffffff;
+    padding: 20px;
+    background-color: #fd6e0a;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: .4s;
+}
+
+#banner .banner_wrapper .text .download i {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+#banner .banner_wrapper .text .download:hover {
+    color: #fd6e0a;
+    background-color: #000000;
+}
+
+#banner .banner_wrapper .text .contact {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.24px;
+    color: #fd6e0a;
+    padding: 18px 35px;
+    border: 2px solid #fd6e0a;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+}
+
+#banner .banner_wrapper .text .contact:hover {
+    color: #ffffff;
+    background-color: #fd6e0a;
+    padding: 18px 35px;
+}
+
+#banner .banner_wrapper .img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .banner_wrapper .img1 {
+    margin-top: -22px;
+    margin-left: -340px;
+    position: absolute;
+}
+
+#banner .banner_wrapper .img2 {
+    margin-top: -180px;
+    margin-left: -120px;
+    position: absolute;
+}
+
+#about {
+    margin-top: 50px;
+    width: 100%;
+    height: 550px;
+}
+
+#about .about_wrapper {
+    width: 827px;
+    height: 288px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about .about_wrapper h3 {
+    padding-top: 130px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47.66px;
+    color: #181818;
+}
+
+#about .about_wrapper p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+
+#about .contact ul li {
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 35px;
+}
+
+#about .contact ul li p {
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+
+#about .contact ul li .text1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #757575;
+}
+
+#my_work {
+    width: 100%;
+    height: 770px;
+    background-color: #ffd8bc;
+}
+
+#my_work .mywork_wrapper {
+    margin-top: 130px;
+    height: 288px;
+    margin: 0 auto;
+}
+
+#my_work .mywork_wrapper h3 {
+    padding-top: 130px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47.66px;
+    color: #181818;
+    text-align: center;
+}
+
+#my_work .mywork_wrapper .work {
+    width: 910px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#my_work .mywork_wrapper .item {
+    margin-top: 50px;
+    width: 100%;
+    height: 377px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+#my_work .mywork_wrapper .item:hover > :not(:hover) {
+    filter: grayscale(100%);
+}
+
+#my_work .item_one {
+    width: 267px;
+    height: 377px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ffb482;
+    box-shadow: 10px 10px 15px #000000;
+    transition: 0.4s;
+}
+
+#my_work .item_one:hover {
+    filter: grayscale(0);
+    margin-top: -15px;
+}
+
+#my_work .mywork_wrapper .item .item_one img {
+    margin-top: 15px;
+}
+
+#my_work .mywork_wrapper .item .item_one h6 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.24px;
+    color: #181818;
+}
+
+#my_work .mywork_wrapper .item .item_one p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #242424;
+}
+
+
